@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  width: 95%;
+  height: 95%;
+  background-color: rgb(43, 43, 43);
+  display: flex;
+  justify-content: space-between;
+}
+
+.alarm, .todo, .done {
+  width: 32%;
+  height: 100%;
+  border: 1px solid red;
+}
