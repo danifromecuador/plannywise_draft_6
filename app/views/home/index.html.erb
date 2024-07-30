@@ -1,1 +1,17 @@
-<h1>Hello Dani</h1>
+<%= stylesheet_link_tag('home_index') %>
+<meta http-equiv="refresh" content="1">  <!-- Refresh the page every second -->
+
+<div class="todo">
+  <h1>Goals</h1>
+</div>
+<div class='alarm'>
+  <h1>Clock</h1>
+  <div class="clock">
+    <div class="time">
+      <%= @remaining_seconds %> seconds remaining
+    </div>
+  </div>
+</div>
+<div class="done">
+  <h1>Completed Tasks</h1>
+</div>
