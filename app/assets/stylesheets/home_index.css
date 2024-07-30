@@ -21,7 +21,9 @@ body {
   justify-content: space-between;
 }
 
-.alarm, .todo, .done {
+.alarm,
+.todo,
+.done {
   width: 32%;
   height: 100%;
   border: 1px solid red;
