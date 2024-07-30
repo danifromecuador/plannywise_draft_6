@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def index
-    @initial_seconds = 15 * 60  # 15 minutes
+    @initial_seconds = 15 * 60 # 15 minutes
     @remaining_seconds = calculate_remaining_seconds(@initial_seconds)
   end
 
